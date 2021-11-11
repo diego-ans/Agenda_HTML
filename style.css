@@ -1,0 +1,27 @@
+#main-frame{
+    position: absolute;
+    top: 10px;
+    width: 99%;
+    height: 97%;
+    background-color: greenyellow;
+}
+
+
+    #data-container{
+        position: absolute;
+        width: 450px;
+        height: 300px;
+
+        top: 1cm;
+        right: 1cm;
+
+        background-color: red;
+        border-radius: 30px;
+        box-shadow: 1px 1px 10px;
+    }
+
+
+        #floating-data{
+            position: sticky;
+            /*averiguar como funciona sticky*/
+        }
