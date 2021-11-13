@@ -2,25 +2,35 @@
 <html lang="es" style="background-color: #fff9e6;">
     
     <head>
-
-
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <script src="main.js"></script>
         <title>Agenda electronica</title>
-    
     
     </head>
 
     <body>
         <!--Los colores son de: 
             https://coolors.co/fff9e6-f5eac3-eae0bc-e0d6b4-d6ccac-ddf4cc-d6eac5-cce1bd-c4d7b5-b6cca5-->
-        <div id="main-frame"> <!--ESPERAR A SABER COMO MANIPULAR ARCHIVOS EN JS-->
-            
-                <button id="boton">cargar</button>
-            
-        </div>
+        
+        <input type="file" id="fileupload" style="position: absolute;
+        left: 4cm; top: 2cm;"/><!--Estara oculto, usare el label
+        como si fuera el boron que acciona el OS browser
+        Lo pongo afuera de la caja para ocultarlo detras de la misma-->
+        
+        <div id="main-frame">
 
+            
+            <label for="fileupload">Sexo</label>
+
+            <button id="boton" type="button" onclick="Upload()">cargar</button>
+
+
+            <div id="dvCSV">
+            <!--Aqui se muestra la tabla-->
+            </div>
+
+        </div>
     </body>
 
 </html>

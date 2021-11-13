@@ -1,3 +1,29 @@
+table {
+    border-collapse:separate;
+    border-spacing:1px;
+    background:#CCC;
+        margin-right:200px
+    }
+
+table th {
+        background:#EEE;
+        font-weight:600;
+        padding:10px 20px;
+        text-align:center;
+    }
+
+table tbody {
+        padding:0; margin:0;
+        border-collapse:collapse;
+        border-spacing:0px;
+    }
+table td {
+        background:#C7DBED;
+        padding:5px 10px;
+        text-align:center;
+    }
+
+
 #main-frame{
     position: absolute;
     top: 29px;
@@ -11,6 +37,12 @@
 }
 
 
+#fileupload{
+    position: absolute;
+    background-color: red;
+}
+
+
 #boton{
     position: absolute;
     width: 100px;
@@ -19,19 +51,9 @@
     top: 30px;
     left: 30px;
 
+
+    text-align: center;
     background-color: #eae0bc;
     border-radius: 10px;
     box-shadow: 1px 1px 10px;
-}
-
-#cargar-usuario{
-    position: absolute;
-    width: 80px;
-    height: 50px;
-
-    background-color: gold;
-    font-size: 15px;
-
-    cursor: pointer;
-    border-radius: 10px;
 }
