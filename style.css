@@ -1,27 +1,37 @@
 #main-frame{
     position: absolute;
-    top: 10px;
-    width: 99%;
-    height: 97%;
-    background-color: greenyellow;
+    top: 29px;
+    left: 100px;
+
+    width: 1163px;
+    height: 600px;
+    background-color: #cfe1b9;
+
+    box-shadow: 1px 1px 10px;
 }
 
 
-    #data-container{
-        position: absolute;
-        width: 450px;
-        height: 300px;
+#boton{
+    position: absolute;
+    width: 100px;
+    height: 50px;
 
-        top: 1cm;
-        right: 1cm;
+    top: 30px;
+    left: 30px;
 
-        background-color: red;
-        border-radius: 30px;
-        box-shadow: 1px 1px 10px;
-    }
+    background-color: #eae0bc;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+}
 
+#cargar-usuario{
+    position: absolute;
+    width: 80px;
+    height: 50px;
 
-        #floating-data{
-            position: sticky;
-            /*averiguar como funciona sticky*/
-        }
+    background-color: gold;
+    font-size: 15px;
+
+    cursor: pointer;
+    border-radius: 10px;
+}
