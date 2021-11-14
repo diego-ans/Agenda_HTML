@@ -43,7 +43,7 @@ table td {
 #up-secc{
     position: absolute;
     width: 200px;
-    height: 300px;
+    height: 150px;
 
     box-shadow: 1px 1px 10px;
     border-radius: 20px;
@@ -55,31 +55,95 @@ table td {
 }
 
 
-#lbl-file{
-    position: absolute;
-    left: 55px;
-    top: 55px;;
-}
-
-
-#boton{
+#up-secc-file{
     position: absolute;
     width: 100px;
     height: 50px;
 
-    top: 200px;
+    top: 20px;
     left: 49px;
 
-
+    
     text-align: center;
-    background-color: rgba(231, 214, 153, 0.678);
+    cursor: pointer;
+    background-color: rgb(231, 214, 153);
     border-radius: 10px;
-    /*box-shadow: 1px 1px 10px;*/
+
 }
+
+
+    #lbl-file{
+        position: absolute;
+        width: 4px;
+        height: 48px;
+        
+        left: 1px;
+        top: 1px;;
+
+        width: 2.6cm;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #boton{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+
+        top: 80px;
+        left: 49px;
+
+
+        text-align: center;
+        cursor: pointer;
+        background-color: rgba(231, 214, 153, 0.678);
+        border-radius: 10px;
+        /*box-shadow: 1px 1px 10px;*/
+    }
+
+#nw-work{
+    position: absolute;
+    width: 200px;
+    height: 125px;
+
+    box-shadow: 1px 1px 10px;
+    border-radius: 20px;
+    background-color: #c9b57385;
+
+    bottom: 20%;
+    left: 60px;
+
+}
+
+    #nw-file{
+        position: absolute;
+        left: 46px;
+        top: 25px;;
+
+        text-align: center;
+    }
+
+
+    #nw-button{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+
+        top: 55px;
+        left: 49px;
+
+
+        text-align: center;
+        cursor: pointer;
+        background-color: rgba(231, 214, 153, 0.678);
+        border-radius: 10px;
+        /*box-shadow: 1px 1px 10px;*/
+    }
+
 
 #dvCSV{
     position: absolute;
-    
+
     left: 600px;
     top: 20%;
 }
