@@ -1,3 +1,6 @@
+//Esta funcion sirve para leer y
+//cargar los elementos de un archivo cs a una tabla html
+
 function Upload() {
     var fileUpload = document.getElementById("fileupload");
     var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;
