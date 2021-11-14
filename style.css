@@ -1,14 +1,17 @@
+/*fff9e6-f5eac3-eae0bc-e0d6b4-d6ccac-ddf4cc-d6eac5-cce1bd-c4d7b5-b6cca5*/
+
 table {
     border-collapse:separate;
     border-spacing:1px;
-    background:#CCC;
+    background-color: #585742e1;;
+
         margin-right:200px
     }
 
 table th {
-        background:#EEE;
+        color:rgb(206, 72, 72);
         font-weight:600;
-        padding:10px 20px;
+        padding: 20px 20px;
         text-align:center;
     }
 
@@ -18,8 +21,8 @@ table tbody {
         border-spacing:0px;
     }
 table td {
-        background:#C7DBED;
-        padding:5px 10px;
+        background:#eeec7fc0;
+        padding:5px 30px;
         text-align:center;
     }
 
@@ -33,13 +36,29 @@ table td {
     height: 600px;
     background-color: #cfe1b9;
 
+    border-radius: 0.4cm;
     box-shadow: 1px 1px 10px;
 }
 
-
-#fileupload{
+#up-secc{
     position: absolute;
-    background-color: red;
+    width: 200px;
+    height: 300px;
+
+    box-shadow: 1px 1px 10px;
+    border-radius: 20px;
+    background-color: #c9b57385;
+
+    top: 20%;
+    left: 60px;
+
+}
+
+
+#lbl-file{
+    position: absolute;
+    left: 55px;
+    top: 55px;;
 }
 
 
@@ -48,12 +67,19 @@ table td {
     width: 100px;
     height: 50px;
 
-    top: 30px;
-    left: 30px;
+    top: 200px;
+    left: 49px;
 
 
     text-align: center;
-    background-color: #eae0bc;
+    background-color: rgba(231, 214, 153, 0.678);
     border-radius: 10px;
-    box-shadow: 1px 1px 10px;
+    /*box-shadow: 1px 1px 10px;*/
+}
+
+#dvCSV{
+    position: absolute;
+    
+    left: 600px;
+    top: 20%;
 }
