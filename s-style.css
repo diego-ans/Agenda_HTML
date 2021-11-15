@@ -26,10 +26,9 @@
     box-shadow: 1px 1px 10px;
     background-color: #d2ddbce3;
 
-    
 }
 
-
+/*###############################*/
 
 
 #title-text{
@@ -45,11 +44,18 @@
 
     top: 180px;
     left: 50px;
-
+    /*rgba(196, 230, 85, 0.568)*/
     border-radius: 10px;
-    background-color: rgba(196, 230, 85, 0.616);
-}
+    background-color: rgba(230, 228, 85, 0.445);
+    transition-duration: 1s;
 
+}#in-title:hover{
+    transition-duration: 1s;
+    width: 170px; height: 60px;
+    left: 40px;
+    background-color: rgba(137, 165, 44, 0.294);
+}
+/*###############################*/
 
 #hour-text{
     position: absolute;
@@ -66,9 +72,16 @@
     left: 250px;
 
     border-radius: 10px;
-    background-color: rgba(196, 230, 85, 0.616);
-}
+    background-color: rgba(230, 228, 85, 0.445);
+    transition-duration: 1s;
 
+}#in-hour:hover{
+    transition-duration: 1s;
+    width: 170px; height: 60px;
+    left: 240px;
+    background-color: rgba(137, 165, 44, 0.294);
+}
+/*###############################*/
 
 #desc-text{
     position: absolute;
@@ -85,13 +98,16 @@
     left: 450px;
 
     border-radius: 10px;
-    background-color: rgba(196, 230, 85, 0.616);
+    background-color: rgba(230, 228, 85, 0.445);
     transition-duration: 1s;
-}#in-text:hover{
-    width: 170px; height: 60px;
-    background-color: rgba(137, 165, 44, 0.794);
-}
 
+}#in-text:hover{
+    transition-duration: 1s;
+    width: 170px; height: 60px;
+    left: 440px;
+    background-color: rgba(137, 165, 44, 0.294);
+}
+/*###############################*/
 
 
 #go-back-button{
@@ -104,4 +120,11 @@
 
     border-radius: 7px;
     background-color: bisque;
+    transition-duration: 1s;
+
+}#go-back-button:hover{
+    transition-duration: 1s;
+    left: 30px;
+    width: 160px;
+    height: 40px;
 }
