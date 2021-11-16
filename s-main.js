@@ -21,11 +21,12 @@ function parseData (DataArray) {
 
     var finalResult="";
 
-    title=title+","+"\n";
-    hour=hour+","+"\n";
-    desc=desc+","+"\n";
+    title=title+"\n";
+    hour=hour+"\n";
+    desc=desc+"\n";
     
     finalResult=title+hour+desc;
+
     return finalResult;
 }
 
@@ -33,6 +34,13 @@ function parseData (DataArray) {
 function NewfileLine (title,hour,desc) {
     let DataArr=[title,hour,desc];
     var nw_Line=parseData(DataArr);
+    
+    
+}
 
+function Main() {
 
+    var infoarray=getData();
+
+    NewfileLine(infoarray[0],infoarray[1],infoarray[2]);
 }

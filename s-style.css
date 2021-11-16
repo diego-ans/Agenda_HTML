@@ -31,6 +31,9 @@
 /*###############################*/
 
 
+
+/*AÑADIR HTML EN CASO DE ERROR EN TODO*/
+
 #title-text{
     position: absolute;
     
@@ -56,6 +59,7 @@
     background-color: rgba(137, 165, 44, 0.294);
 }
 /*###############################*/
+
 
 #hour-text{
     position: absolute;
@@ -83,6 +87,7 @@
 }
 /*###############################*/
 
+
 #desc-text{
     position: absolute;
 
@@ -106,6 +111,25 @@
     width: 170px; height: 60px;
     left: 440px;
     background-color: rgba(137, 165, 44, 0.294);
+}
+/*###############################*/
+
+
+#boton{
+    position: absolute;
+    width: 140px;
+    height: 30px;
+
+    top: 300px;
+    left: 260px;
+
+    border-radius: 7px;
+    background-color: rgba(255, 228, 196, 0.705);
+    transition-duration: 1s;
+
+}#boton:hover{
+    transition-duration: 0.5s;
+    background-color: rgba(184, 144, 96, 0.965);
 }
 /*###############################*/
 
