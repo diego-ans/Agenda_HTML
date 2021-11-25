@@ -3,7 +3,6 @@
     <meta charset="utf-8">
     <title>Add-ToDo</title>
     <link rel="stylesheet" href="s-style.css">
-    <script type="text/javascript" src="s-main.js"></script>
 <head>
 </head>
 
@@ -12,17 +11,22 @@
 
     <div id="main-frame">
         <div id="long-frame">
+            <form action="pos-html.php" method="post">
+                
+                <h4 id="user-text">Ingresa tu primer nombre</h4>
+                <input name="user" id="in-user" type="text" placeholder="Tu primer nombre" maxlength="10">
+                
+                <h4 id="title-text">Nombre de la tarea</h4>
+                <input name="title" id="in-title" type="text" placeholder="nombre de la tarea" maxlength="15">
 
-            <h4 id="title-text">Ingresa el titulo de la tarea</h4>
-            <input id="in-title" type="text" placeholder="titulo" maxlength="15">
+                <h4 id="hour-text">Ingresa la hora</h4>
+                <input name="hour" id="in-hour" type="text" placeholder="hora" maxlength="8">
+
+                <h4 id="desc-text">Añade una descripcion breve</h4>
+                <input name="desc" id="in-text" type="text" placeholder="descripcion" maxlength="20">
             
-            <h4 id="hour-text">Ingresa la hora</h4>
-            <input id="in-hour" type="text" placeholder="hora" maxlength="8">
-        
-            <h4 id="desc-text">Añade una descripcion breve</h4>
-            <input id="in-text" type="text" placeholder="descripcion" maxlength="20">
-        
-            <button id="boton" onclick="Main()">Enviar datos</button>
+                <button id="boton" type="submit">Enviar datos</button>
+            </form>
         </div>
     
         <div id="go-back">
