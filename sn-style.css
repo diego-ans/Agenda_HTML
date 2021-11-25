@@ -25,3 +25,10 @@
 }
 
 
+#ERROR{
+    position: absolute;
+
+    top: 340px;
+    left: 260px;
+    width: 250px; height: 30px;
+}

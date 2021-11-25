@@ -42,6 +42,11 @@
     $task = $_POST["title"];
     $hour = $_POST["hour"];
     $desc = $_POST["desc"];
+    if($user =="" || $task =="" || $hour==""){
+        echo "Llena todos los campos";
+    }
+
+
     $NW_DATA=array(array($task,$desc,$hour));
 
 
@@ -62,7 +67,8 @@
         joinFiles(array("TEMPORAL.csv","temp.csv"),$user.".csv");
         unlink("temp.csv");
         unlink("TEMPORAL.csv");
-
+        
+        echo "Archivo guardado";
         header("Location: s-index.html"); #redirecciona al html
 
     }else{
@@ -70,6 +76,7 @@
         unlink("temp.csv");
         unlink("TEMPORAL.csv");
 
+        echo "Nuevo usuario agregado";
         header("Location: s-index.html"); #redirecciona al html
     }
 ?>
