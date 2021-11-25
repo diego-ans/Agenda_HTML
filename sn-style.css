@@ -1,0 +1,27 @@
+
+#user-text{
+    position: absolute;
+
+    top: 15px;
+    left: 240px;
+}
+#in-user{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+
+    top: 70px;
+    left: 250px;
+
+    border-radius: 10px;
+    background-color: rgba(230, 228, 85, 0.445);
+    transition-duration: 1s;
+
+}#in-user:hover{
+    transition-duration: 1s;
+    width: 170px; height: 60px;
+    left: 240px;
+    background-color: rgba(137, 165, 44, 0.294);
+}
+
+
