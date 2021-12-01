@@ -11,34 +11,37 @@
 
     <body>
         <!--Los colores son de: 
-            https://coolors.co/fff9e6-f5eac3-eae0bc-e0d6b4-d6ccac-ddf4cc-d6eac5-cce1bd-c4d7b5-b6cca5-->
+    https://coolors.co/fff9e6-f5eac3-eae0bc-e0d6b4-d6ccac-ddf4cc-d6eac5-cce1bd-c4d7b5-b6cca5-->
         
-        <input type="file" id="fileupload" style="position: absolute;
-        left: 4cm; top: 2cm;" hidden/><!--Estara oculto, usare el label
-        como si fuera el boron que acciona el OS browser
-        Lo pongo afuera de la caja para ocultarlo detras de la misma-->
-        
-        <div id="main-frame">
 
-            <div id="up-secc">
+
+        <div id="main-frame"> <!--Main frame es toda la parte de verde olivo-->
+
+            <div id="up-secc"> <!--Es la seccion de cargar y elegir archivo-->
+
                 <div id="up-secc-file">
+                    <input type="file" id="fileupload" style="position: absolute;
+                    left: 4cm; top: 2cm;" hidden/><!--Estara oculto, usare el label
+                    como si fuera el boton que acciona el OS browser
+                    Lo pongo afuera de la caja para ocultarlo detras de la misma-->
 
                     <label id="lbl-file" for="fileupload">Elegir archivo</label>
-
                 </div>
 
                 <button id="boton" type="button" onclick="Upload()">Cargar tabla</button>
             
             </div>
 
-            <div id="nw-work">
-                <form action="s-index.html">
+            <div id="nw-work"> <!--Es la seccion de ir a crear nuevo archivo-->
 
+                <form action="s-index.html">
                     <label id="nw-file">Crear nueva tarea</label>
                     <button id="nw-button" >Ir</button>
-                
                 </form>
+
             </div>
+
+
 
             <div id="dvCSV">
             <!--Aqui se muestra la tabla-->

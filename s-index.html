@@ -12,26 +12,27 @@
 <body>
 
     <div id="main-frame">
-        <div id="long-frame">
+        <div id="long-frame"> <!--Long frame es el recuadro un tono mas abajo del main frame-->
             <form action="pos-html.php" method="post">
 
-                <!--#################################################-->                
                 <h4 id="user-text">Ingresa tu primer nombre</h4>
                 <input name="user" id="in-user" type="text" placeholder="Tu primer nombre" maxlength="10">
-                <!--#################################################-->
+
 
                 <h4 id="title-text">Nombre de la tarea</h4>
                 <input name="title" id="in-title" type="text" placeholder="nombre de la tarea" maxlength="15">
 
+
                 <h4 id="hour-text">Ingresa la hora</h4>
                 <input name="hour" id="in-hour" type="text" placeholder="hora" maxlength="8">
+
 
                 <h4 id="desc-text">Añade una descripcion breve</h4>
                 <input name="desc" id="in-text" type="text" placeholder="descripcion" maxlength="20">
             
                 <button id="boton" type="submit">Enviar datos</button>
+                    <!--Con este boton se envian todos los datos por POST-->
             </form>
-            <h3 id="ERROR"></h3>
         </div>
     
         <div id="go-back">
